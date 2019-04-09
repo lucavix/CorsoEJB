@@ -1,0 +1,5 @@
+package biz.opengte.corso.ejb;
+
+public class AdderLocal {
+
+}
