@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
     <libraryInfo home="D:\work\vix\CorsoRanstad\jdk-12" version="12"/>
+    <libraryInfo home="D:\work\opengate\emptyapp\jdk8u144" version="1.8.0_144">
+        <bootpath>
+            <entry path="D:\work\opengate\emptyapp\jdk8u144\jre\lib\resources.jar"/>
+            <entry path="D:\work\opengate\emptyapp\jdk8u144\jre\lib\rt.jar"/>
+            <entry path="D:\work\opengate\emptyapp\jdk8u144\jre\lib\sunrsasign.jar"/>
+            <entry path="D:\work\opengate\emptyapp\jdk8u144\jre\lib\jsse.jar"/>
+            <entry path="D:\work\opengate\emptyapp\jdk8u144\jre\lib\jce.jar"/>
+            <entry path="D:\work\opengate\emptyapp\jdk8u144\jre\lib\charsets.jar"/>
+            <entry path="D:\work\opengate\emptyapp\jdk8u144\jre\lib\jfr.jar"/>
+            <entry path="D:\work\opengate\emptyapp\jdk8u144\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="D:\work\opengate\emptyapp\jdk8u144\jre\lib\ext"/>
+            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="D:\work\opengate\emptyapp\jdk8u144\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
 </libraryInfos>

@@ -8,7 +8,7 @@ import javax.ejb.Stateless;
 @LocalBean
 public class EveryFiveSeconds {
 	
-	@Schedule(second = "*/5", minute = "*", hour = "*", persistent = false)
+//	@Schedule(second = "*/5", minute = "*", hour = "*", persistent = false)
 	public void doJob() {
 		System.out.println(System.currentTimeMillis());
 	}
