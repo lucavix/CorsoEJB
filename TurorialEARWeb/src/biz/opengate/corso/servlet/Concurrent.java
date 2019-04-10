@@ -13,6 +13,7 @@ import biz.opengte.corso.ejb.CounterSingleton;
 
 @WebServlet("/Concurrent")
 public class Concurrent extends HttpServlet {
+	private static final long serialVersionUID = 1L;
 
 	@EJB
 	private CounterSingleton counter;

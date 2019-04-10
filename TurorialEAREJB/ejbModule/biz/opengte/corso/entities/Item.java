@@ -11,6 +11,16 @@ public class Item {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String description;
+
+	public Item() {
+		super();		
+	}
+	
+	public Item(Long id, String description) {
+		super();
+		this.id = id;
+		this.description = description;
+	}
 	
 	
 	public Long getId() {
@@ -24,6 +34,12 @@ public class Item {
 	}
 	public void setDescription(String description) {
 		this.description = description;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Item [id=" + id + ", description=" + description + "]";
 	}
 	
 	
