@@ -150,3 +150,6 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2019-04-10 09:41:59.330
 !MESSAGE Server Startup Succeeded
+
+!ENTRY org.eclipse.jface.text 2 0 2019-04-10 09:58:43.306
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
