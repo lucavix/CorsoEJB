@@ -39,7 +39,6 @@ INDEX VERSION 1.131+D:\work\vix\CorsoRanstad\ws\.metadata\.plugins\org.eclipse.j
 845070204.index
 795066756.index
 1585415154.index
-1671608652.index
 1488632621.index
 2394143671.index
 2292047400.index
