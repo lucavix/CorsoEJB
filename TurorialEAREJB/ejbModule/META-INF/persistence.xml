@@ -7,20 +7,13 @@
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<jta-data-source>java:/MyDS</jta-data-source>
 		<properties>
-			<property name="hibernate.dialect"
-				value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
 			<property name="hibernate.hbm2ddl.auto" value="update" />
 			<property name="hibernate.show_sql" value="false" />
 			<property name="hibernate.format_sql" value="false" />
-			<!-- CREATE DATABASE emptyapp13 DEFAULT CHARACTER SET utf8 DEFAULT COLLATE 
-				utf8_general_ci; -->
-			<property name="hibernate.connection.useUnicode"
-				value="true" />
-			<property name="hibernate.connection.characterEncoding"
-				value="UTF-8" />
+			<property name="hibernate.connection.useUnicode" value="true" />
+			<property name="hibernate.connection.characterEncoding" value="UTF-8" />
 			<property name="hibernate.connection.charSet" value="UTF-8" />
-
 		</properties>
-
 	</persistence-unit>
 </persistence>

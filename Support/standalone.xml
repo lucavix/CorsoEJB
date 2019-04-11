@@ -161,20 +161,21 @@
                     </security>
                 </datasource>
 				<datasource jndi-name="java:/MyDS" pool-name="MariaDS">
-				    <connection-url>jdbc:mariadb://127.0.0.1/corso</connection-url>
-				    <driver>mariadb</driver>
-				    <security>
-				        <user-name>corso</user-name>
-				        <password>corso</password>
-				    </security>
-   				</datasource>                
-                <drivers>
-                    <driver name="h2" module="com.h2database.h2">
-                        <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
-                    </driver>
+					<connection-url>jdbc:mariadb://127.0.0.1/corso</connection-url>
+					<driver>mariadb</driver>
+					<security>
+						<user-name>corso</user-name>
+						<password>corso</password>
+					</security>
+				</datasource>
+				<drivers>
+					<driver name="h2" module="com.h2database.h2">
+						<xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
+					</driver>
 					<driver name="mariadb" module="org.mariadb">
-					    <xa-datasource-class>org.mariadb.jdbc.MariaDbDataSource</xa-datasource-class>
-					</driver>                </drivers>
+						<xa-datasource-class>org.mariadb.jdbc.MariaDbDataSource</xa-datasource-class>
+					</driver>
+				</drivers>
             </datasources>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:deployment-scanner:2.0">
